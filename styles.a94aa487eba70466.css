@@ -1,0 +1,1 @@
+body{font-family:Numans,sans-serif;background-image:url(Fondo.9f29baa7019c8a1b.png);background-size:cover;background-repeat:repeat;animation:moveBackground 30s linear infinite;display:inline-block;justify-content:center;align-items:center;width:100%}@keyframes moveBackground{0%{background-position:0 0}to{background-position:1000px 0}}

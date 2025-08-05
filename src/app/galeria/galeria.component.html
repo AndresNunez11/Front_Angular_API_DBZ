@@ -1,0 +1,13 @@
+<div class="animated-background">
+  <div *ngFor="let item of misProductos" class="caja">
+    <img class="imagenes" [src]="item.image" alt="imagen">
+    <hr>
+    <h2>{{item.name}}</h2>   
+  </div><br>
+  <!-- Botón Ver más -->
+  <div class="load-more" *ngIf="hasMore()">
+    <button (click)="loadMore()" [disabled]="loading">
+      {{ loading ? 'Cargando...' : 'Ver más' }}
+    </button>
+  </div>
+</div>

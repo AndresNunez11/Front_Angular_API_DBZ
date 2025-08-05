@@ -1,0 +1,21 @@
+body {
+    /*background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(231, 0, 255, 1) 1%, rgba(8, 27, 133, 1) 99%, rgba(9, 9, 121, 1) 100%);*/
+    font-family: 'Numans', sans-serif;
+    background-image: url('../src/img/Fondo.png'); /* o una imagen tuya */
+    background-size: cover;
+    background-repeat: repeat;
+    animation: moveBackground 30s linear infinite;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
